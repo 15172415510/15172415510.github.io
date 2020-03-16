@@ -7,20 +7,20 @@
   
   <title>git配置ssh公钥 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="[]:    检查是否配置过密钥 1cd ~&#x2F;.ssh![14253829-2be933f5d7eaa774](C:\Users\chengwei\Desktop\myBlogs\folder\source\_posts\img\git配置ssh\14253829-2be933f5d7eaa774.webp)   创建ssh密钥 1ssh-keygen -t rsa -C &amp;apos;yourem">
+  <meta name="description" content="简书配置ssh   检查是否配置过密钥 1cd ~&#x2F;.ssh!   创建ssh密钥 1ssh-keygen -t rsa -C &amp;apos;youremail@xx.com&amp;apos;&#x2F;&#x2F;enter(回车)   查看已生成的公钥 1cat ~&#x2F;.ssh&#x2F;id_rsa.pub&#x2F;或打开c盘&#x2F;user&#x2F;user&#x2F;.ssh查看id_rsa.pub文件    验证ssh密钥是否可以正常使用 1ssh -T">
 <meta property="og:type" content="article">
 <meta property="og:title" content="git配置ssh公钥">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2020&#x2F;03&#x2F;16&#x2F;git&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="[]:    检查是否配置过密钥 1cd ~&#x2F;.ssh![14253829-2be933f5d7eaa774](C:\Users\chengwei\Desktop\myBlogs\folder\source\_posts\img\git配置ssh\14253829-2be933f5d7eaa774.webp)   创建ssh密钥 1ssh-keygen -t rsa -C &amp;apos;yourem">
+<meta property="og:description" content="简书配置ssh   检查是否配置过密钥 1cd ~&#x2F;.ssh!   创建ssh密钥 1ssh-keygen -t rsa -C &amp;apos;youremail@xx.com&amp;apos;&#x2F;&#x2F;enter(回车)   查看已生成的公钥 1cat ~&#x2F;.ssh&#x2F;id_rsa.pub&#x2F;或打开c盘&#x2F;user&#x2F;user&#x2F;.ssh查看id_rsa.pub文件    验证ssh密钥是否可以正常使用 1ssh -T">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="c:%5CUsers%5Cchengwei%5CDesktop%5CmyBlogs%5Cfolder%5Csource_posts%5Cimg%5Cgit%E9%85%8D%E7%BD%AEssh%5C14253829-518b2b068220110d.webp">
-<meta property="og:image" content="c:%5CUsers%5Cchengwei%5CDesktop%5CmyBlogs%5Cfolder%5Csource_posts%5Cimg%5Cgit%E9%85%8D%E7%BD%AEssh%5C14253829-2be933f5d7eaa774.webp">
-<meta property="og:image" content="file:&#x2F;&#x2F;&#x2F;C:&#x2F;Users&#x2F;chengwei&#x2F;Desktop&#x2F;myBlogs&#x2F;folder&#x2F;source&#x2F;_posts&#x2F;img&#x2F;git%E9%85%8D%E7%BD%AEssh&#x2F;14253829-fd3255a979b98650.webp?lastModify=1584356394?lastModify=1584356394">
-<meta property="og:image" content="c:%5CUsers%5Cchengwei%5CDesktop%5CmyBlogs%5Cfolder%5Csource_posts%5Cimg%5Cgit%E9%85%8D%E7%BD%AEssh%5C14253829-65d238c46a22f2f1.webp">
-<meta property="og:updated_time" content="2020-03-16T12:18:03.349Z">
+<meta property="og:image" content="https:&#x2F;&#x2F;upload-images.jianshu.io&#x2F;upload_images&#x2F;14253829-518b2b068220110d.png?imageMogr2&#x2F;auto-orient&#x2F;strip%7CimageView2&#x2F;2&#x2F;w&#x2F;414&#x2F;format&#x2F;webp">
+<meta property="og:image" content="https:&#x2F;&#x2F;upload-images.jianshu.io&#x2F;upload_images&#x2F;14253829-2be933f5d7eaa774.png?imageMogr2&#x2F;auto-orient&#x2F;strip%7CimageView2&#x2F;2&#x2F;w&#x2F;528&#x2F;format&#x2F;webp">
+<meta property="og:image" content="https:&#x2F;&#x2F;upload-images.jianshu.io&#x2F;upload_images&#x2F;14253829-fd3255a979b98650.png?imageMogr2&#x2F;auto-orient&#x2F;strip%7CimageView2&#x2F;2&#x2F;w&#x2F;623&#x2F;format&#x2F;webp">
+<meta property="og:image" content="https:&#x2F;&#x2F;upload-images.jianshu.io&#x2F;upload_images&#x2F;14253829-65d238c46a22f2f1.png?imageMogr2&#x2F;auto-orient&#x2F;strip%7CimageView2&#x2F;2&#x2F;w&#x2F;707&#x2F;format&#x2F;webp">
+<meta property="og:updated_time" content="2020-03-16T13:13:01.386Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="c:%5CUsers%5Cchengwei%5CDesktop%5CmyBlogs%5Cfolder%5Csource_posts%5Cimg%5Cgit%E9%85%8D%E7%BD%AEssh%5C14253829-518b2b068220110d.webp">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;upload-images.jianshu.io&#x2F;upload_images&#x2F;14253829-518b2b068220110d.png?imageMogr2&#x2F;auto-orient&#x2F;strip%7CimageView2&#x2F;2&#x2F;w&#x2F;414&#x2F;format&#x2F;webp">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -89,20 +89,20 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>[]: </p>
+        <p><a href="https://www.jianshu.com/p/3f4b2ede5a93" target="_blank" rel="noopener">简书配置ssh</a></p>
 <p>  检查是否配置过密钥</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd ~/.ssh![14253829-2be933f5d7eaa774](C:\Users\chengwei\Desktop\myBlogs\folder\source\_posts\img\git配置ssh\14253829-2be933f5d7eaa774.webp)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd ~/.ssh!</span><br></pre></td></tr></table></figure>
 
-<p><img src="C:%5CUsers%5Cchengwei%5CDesktop%5CmyBlogs%5Cfolder%5Csource_posts%5Cimg%5Cgit%E9%85%8D%E7%BD%AEssh%5C14253829-518b2b068220110d.webp" alt="14253829-518b2b068220110d"></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/14253829-518b2b068220110d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/414/format/webp" alt=""></p>
 <p>创建ssh密钥</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &apos;youremail@xx.com&apos;//enter(回车)</span><br></pre></td></tr></table></figure>
 
-<p><img src="C:%5CUsers%5Cchengwei%5CDesktop%5CmyBlogs%5Cfolder%5Csource_posts%5Cimg%5Cgit%E9%85%8D%E7%BD%AEssh%5C14253829-2be933f5d7eaa774.webp" alt="14253829-2be933f5d7eaa774"></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/14253829-2be933f5d7eaa774.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/528/format/webp" alt=""></p>
 <p>查看已生成的公钥</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub/或打开c盘/user/user/.ssh查看id_rsa.pub文件</span><br></pre></td></tr></table></figure>
 
-<p><img src="file:///C:/Users/chengwei/Desktop/myBlogs/folder/source/_posts/img/git%E9%85%8D%E7%BD%AEssh/14253829-fd3255a979b98650.webp?lastModify=1584356394?lastModify=1584356394" alt="img"></p>
-<p><img src="C:%5CUsers%5Cchengwei%5CDesktop%5CmyBlogs%5Cfolder%5Csource_posts%5Cimg%5Cgit%E9%85%8D%E7%BD%AEssh%5C14253829-65d238c46a22f2f1.webp" alt="14253829-65d238c46a22f2f1"></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/14253829-fd3255a979b98650.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/623/format/webp" alt=""></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/14253829-65d238c46a22f2f1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/707/format/webp" alt=""></p>
 <p>验证ssh密钥是否可以正常使用</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
 
@@ -110,7 +110,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/03/16/git/" data-id="ck7uhj5pl00024sujbjl7cahp" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/03/16/git/" data-id="ck7uhnl1v000068ujbnwdc81a" class="article-share-link">Share</a>
       
       
     </footer>
