@@ -61,6 +61,58 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-git" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/03/16/git/" class="article-date">
+  <time datetime="2020-03-16T10:36:00.000Z" itemprop="datePublished">2020-03-16</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/03/16/git/">git</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>  检查是否配置过密钥</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd ~/.ssh![14253829-2be933f5d7eaa774](C:\Users\chengwei\Desktop\myBlogs\folder\source\_posts\img\git配置ssh\14253829-2be933f5d7eaa774.webp)</span><br></pre></td></tr></table></figure>
+
+<p><img src="C:%5CUsers%5Cchengwei%5CDesktop%5CmyBlogs%5Cfolder%5Csource_posts%5Cimg%5Cgit%E9%85%8D%E7%BD%AEssh%5C14253829-518b2b068220110d.webp" alt="14253829-518b2b068220110d"></p>
+<p>创建ssh密钥</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &apos;youremail@xx.com&apos;//enter(回车)</span><br></pre></td></tr></table></figure>
+
+<p><img src="C:%5CUsers%5Cchengwei%5CDesktop%5CmyBlogs%5Cfolder%5Csource_posts%5Cimg%5Cgit%E9%85%8D%E7%BD%AEssh%5C14253829-2be933f5d7eaa774.webp" alt="14253829-2be933f5d7eaa774"></p>
+<p>查看已生成的公钥</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub/或打开c盘/user/user/.ssh查看id_rsa.pub文件</span><br></pre></td></tr></table></figure>
+
+<p><img src="file:///C:/Users/chengwei/Desktop/myBlogs/folder/source/_posts/img/git%E9%85%8D%E7%BD%AEssh/14253829-fd3255a979b98650.webp?lastModify=1584356394?lastModify=1584356394" alt="img"></p>
+<p><img src="C:%5CUsers%5Cchengwei%5CDesktop%5CmyBlogs%5Cfolder%5Csource_posts%5Cimg%5Cgit%E9%85%8D%E7%BD%AEssh%5C14253829-65d238c46a22f2f1.webp" alt="14253829-65d238c46a22f2f1"></p>
+<p>验证ssh密钥是否可以正常使用</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/03/16/git/" data-id="ck7ucz75700028oujbnxuf8vq" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-vue-config-js配置" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/11/05/vue-config-js%E9%85%8D%E7%BD%AE/" class="article-date">
@@ -95,7 +147,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/11/05/vue-config-js%E9%85%8D%E7%BD%AE/" data-id="ck2svz2cx000094uj5bku4mzw" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/11/05/vue-config-js%E9%85%8D%E7%BD%AE/" data-id="ck7ucz75500018ouj4mwg70b1" class="article-share-link">Share</a>
       
       
     </footer>
@@ -119,7 +171,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2019/10/29/hello-world/">Hello World</a>
+      <a class="article-title" href="/2019/10/29/hello-world/">hexo</a>
     </h1>
   
 
@@ -144,7 +196,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/10/29/hello-world/" data-id="ck2svz2d9000194ujgw6yfvu5" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/10/29/hello-world/" data-id="ck7ucz74z00008ouj40rxeu3x" class="article-share-link">Share</a>
       
       
     </footer>
@@ -172,7 +224,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">November 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/">October 2019</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/11/">November 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/">October 2019</a></li></ul>
     </div>
   </div>
 
@@ -185,11 +237,15 @@
       <ul>
         
           <li>
+            <a href="/2020/03/16/git/">git</a>
+          </li>
+        
+          <li>
             <a href="/2019/11/05/vue-config-js%E9%85%8D%E7%BD%AE/">vue-config-js配置</a>
           </li>
         
           <li>
-            <a href="/2019/10/29/hello-world/">Hello World</a>
+            <a href="/2019/10/29/hello-world/">hexo</a>
           </li>
         
       </ul>
@@ -204,7 +260,7 @@
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2019 John Doe<br>
+      &copy; 2020 John Doe<br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
